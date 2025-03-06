@@ -1,0 +1,129 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Styling body */
+body {
+    background: linear-gradient(to right, #8360c3, #2ebf91);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Container utama */
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Judul */
+h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+/* Form Input */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+form input, form select, form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form input, form select {
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+
+form button {
+    background: #2ebf91;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #22a07a;
+}
+
+/* Tabel Daftar Tugas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+table tr:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+/* Link Logout */
+p a {
+    color: #ff4b5c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+/* Tombol Aksi */
+a {
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+a.delete {
+    background: #ff4b5c;
+    color: white;
+}
+
+a.delete:hover {
+    background: #d63042;
+}
+
+a:hover {
+    opacity: 0.8;
+}
